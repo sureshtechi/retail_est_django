@@ -1,0 +1,1 @@
+web: gunicorn retail_est_django.wsgi --log-file -
