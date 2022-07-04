@@ -139,7 +139,7 @@ STATIC_ROOT =  os.path.join(BASE_DIR, 'staticfiles' )
 #static url
 STATIC_URL = 'static/'
 
-# STATICFILES_STORAGE='whitenoise.django.GzipManifestStaticFilesStorage'
+STATICFILES_STORAGE='whitenoise.django.GzipManifestStaticFilesStorage'
 
 # STATICFILES_DIRS = [
 #     os.path.join(BASE_DIR,'retail/build/static')
