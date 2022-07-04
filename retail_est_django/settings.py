@@ -158,7 +158,8 @@ CORS_ORIGIN_WHITELIST=[
     "http://localhost:3000", 
     "http://192.168.1.6:3000",
     "http://192.168.1.10:3000",
-    "https://62c18dbfb64096066d107773--comforting-mousse-4a045c.netlify.app"
+    "https://62c18dbfb64096066d107773--comforting-mousse-4a045c.netlify.app",
+    "https://gleeful-druid-15e4b7.netlify.app"
 ]
 
 MEDIA_ROOT =  os.path.join(BASE_DIR, 'media')
